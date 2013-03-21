@@ -1,3 +1,11 @@
+transmission (2.61-1~4.gbp6879f9) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @6879f9cb762d577d00bfe068b134614489702e88 **
+
+  * New upstream version 2.61
+
+ -- yysfire <yysfire@github.com>  Thu, 21 Mar 2013 14:05:13 +0800
+
 transmission (2.52-3+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload with maintainer’s permission.
