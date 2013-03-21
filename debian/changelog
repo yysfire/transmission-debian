@@ -1,10 +1,10 @@
-transmission (2.61-1~4.gbp6879f9) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @6879f9cb762d577d00bfe068b134614489702e88 **
+transmission (2.61-1) unstable; urgency=low
 
   * New upstream version 2.61
+  * Remove patches:fix_magnet_seed_status.patch & fix_xss_web_client.patch
+  * Remove debian/patches
 
- -- yysfire <yysfire@github.com>  Thu, 21 Mar 2013 14:05:13 +0800
+ -- yysfire <yysfire@github.com>  Thu, 21 Mar 2013 14:35:08 +0800
 
 transmission (2.52-3+nmu1) unstable; urgency=medium
 
