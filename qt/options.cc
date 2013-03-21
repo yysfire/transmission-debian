@@ -7,7 +7,7 @@
  *
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
- * $Id: options.cc 13381 2012-07-09 23:18:40Z jordan $
+ * $Id: options.cc 13751 2013-01-04 00:06:34Z jordan $
  */
 
 #include <cstdio>
@@ -56,9 +56,11 @@ FileAdded :: executed( int64_t tag, const QString& result, struct tr_benc * argu
     if( tag != myTag )
         return;
 
-    if( result == "success" )
-        if( !myDelFile.isEmpty( ) )
-            QFile( myDelFile ).remove( );
+    if( ( result == "success" ) && !myDelFile.isEmpty( ) ) {
+        QFile file( myDelFile );
+        file.setPermissions( QFile::ReadOwner | QFile::WriteOwner );
+        file.remove();
+    }
 
     if( result != "success" ) {
         QString text = result;
@@ -213,7 +215,7 @@ Options :: refreshFileButton( int width )
 
     switch( myAdd.type )
     {
-        case AddData::FILENAME: text = QFileInfo(myAdd.filename).baseName(); break;
+        case AddData::FILENAME: text = QFileInfo(myAdd.filename).completeBaseName(); break;
         case AddData::URL:      text = myAdd.url.toString(); break;
         case AddData::MAGNET:   text = myAdd.magnet; break;
         default:                break;
@@ -418,6 +420,7 @@ Options :: onFilenameClicked( )
                                            QFileInfo(myAdd.filename).absolutePath(),
                                            tr( "Torrent Files (*.torrent);;All Files (*.*)" ) );
         d->setFileMode( QFileDialog::ExistingFile );
+        d->setAttribute( Qt::WA_DeleteOnClose );
         connect( d, SIGNAL(filesSelected(const QStringList&)), this, SLOT(onFilesSelected(const QStringList&)) );
         d->show( );
     }
@@ -441,6 +444,7 @@ Options :: onDestinationClicked( )
                                        tr( "Select Destination" ),
                                        myDestination.absolutePath( ) );
     d->setFileMode( QFileDialog::Directory );
+    d->setAttribute( Qt::WA_DeleteOnClose );
     connect( d, SIGNAL(filesSelected(const QStringList&)), this, SLOT(onDestinationsSelected(const QStringList&)) );
     d->show( );
 }
