@@ -1,4 +1,4 @@
-# $Id: ro.po 13279 2012-04-09 01:50:33Z jordan $
+# $Id: ro.po 13401 2012-07-24 01:00:21Z jordan $
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
 "== 0) && (n != 0))) ? 2: 1));\n"
-"X-Launchpad-Export-Date: 2012-04-09 01:45+0000\n"
-"X-Generator: Launchpad (build 15060)\n"
+"X-Launchpad-Export-Date: 2012-07-24 00:33+0000\n"
+"X-Generator: Launchpad (build 15654)\n"
 
 #: ../gtk/actions.c:45
 msgid "Sort by _Activity"
@@ -331,7 +331,7 @@ msgstr "Se verifică datele locale"
 msgid "Queued for download"
 msgstr "În așteptare pentru descărcare"
 
-#: ../gtk/details.c:563 ../gtk/filter.c:698
+#: ../gtk/details.c:563 ../gtk/filter.c:699
 msgctxt "Verb"
 msgid "Downloading"
 msgstr "Se descarcă"
@@ -340,16 +340,16 @@ msgstr "Se descarcă"
 msgid "Queued for seeding"
 msgstr "În așteptare pentru încărcare"
 
-#: ../gtk/details.c:565 ../gtk/filter.c:699
+#: ../gtk/details.c:565 ../gtk/filter.c:700
 msgctxt "Verb"
 msgid "Seeding"
 msgstr "Încărcare"
 
-#: ../gtk/details.c:566 ../gtk/filter.c:701 ../gtk/torrent-cell-renderer.c:198
+#: ../gtk/details.c:566 ../gtk/filter.c:702 ../gtk/torrent-cell-renderer.c:198
 msgid "Finished"
 msgstr "Finalizat"
 
-#: ../gtk/details.c:566 ../gtk/filter.c:700 ../gtk/torrent-cell-renderer.c:198
+#: ../gtk/details.c:566 ../gtk/filter.c:701 ../gtk/torrent-cell-renderer.c:198
 msgid "Paused"
 msgstr "Suspendat"
 
@@ -357,7 +357,7 @@ msgstr "Suspendat"
 msgid "N/A"
 msgstr "indisp."
 
-#: ../gtk/details.c:611 ../gtk/file-list.c:605
+#: ../gtk/details.c:611 ../gtk/file-list.c:610
 msgid "Mixed"
 msgstr "Mixte"
 
@@ -822,43 +822,43 @@ msgstr[0] "Unul dintre aceste torente nu s-a terminat de descărcat."
 msgstr[1] "Unele dintre aceste torente nu s-au terminat de descărcat."
 msgstr[2] "Unele dintre aceste torente nu s-au terminat de descărcat."
 
-#: ../gtk/file-list.c:602 ../gtk/filter.c:347 ../gtk/util.c:465
+#: ../gtk/file-list.c:607 ../gtk/filter.c:347 ../gtk/util.c:465
 msgid "High"
 msgstr "Ridicată"
 
-#: ../gtk/file-list.c:603 ../gtk/filter.c:351 ../gtk/util.c:466
+#: ../gtk/file-list.c:608 ../gtk/filter.c:351 ../gtk/util.c:466
 msgid "Normal"
 msgstr "Normală"
 
-#: ../gtk/file-list.c:604 ../gtk/filter.c:355 ../gtk/util.c:467
+#: ../gtk/file-list.c:609 ../gtk/filter.c:355 ../gtk/util.c:467
 msgid "Low"
 msgstr "Scăzută"
 
-#: ../gtk/file-list.c:822 ../gtk/msgwin.c:295
+#: ../gtk/file-list.c:827 ../gtk/msgwin.c:295
 msgid "Name"
 msgstr "Nume"
 
 #. add "size" column
-#: ../gtk/file-list.c:837
+#: ../gtk/file-list.c:842
 msgid "Size"
 msgstr "Dimensiune"
 
 #. add "progress" column
-#: ../gtk/file-list.c:852
+#: ../gtk/file-list.c:857
 msgid "Have"
 msgstr "Are"
 
 #. add "enabled" column
-#: ../gtk/file-list.c:865
+#: ../gtk/file-list.c:870
 msgid "Download"
 msgstr "Descărcare"
 
 #. add priority column
-#: ../gtk/file-list.c:881 ../gtk/filter.c:342
+#: ../gtk/file-list.c:886 ../gtk/filter.c:342
 msgid "Priority"
 msgstr "Prioritate"
 
-#: ../gtk/filter.c:314 ../gtk/filter.c:695
+#: ../gtk/filter.c:314 ../gtk/filter.c:696
 msgid "All"
 msgstr "Toate"
 
@@ -874,32 +874,32 @@ msgstr "Public"
 msgid "Private"
 msgstr "Privat"
 
-#: ../gtk/filter.c:697
+#: ../gtk/filter.c:698
 msgid "Active"
 msgstr "Activ"
 
-#: ../gtk/filter.c:702
+#: ../gtk/filter.c:703
 msgctxt "Verb"
 msgid "Verifying"
 msgstr "Se verifică"
 
-#: ../gtk/filter.c:703 ../gtk/msgwin.c:428
+#: ../gtk/filter.c:704 ../gtk/msgwin.c:428
 msgid "Error"
 msgstr "Eroare"
 
 #. add the activity combobox
-#: ../gtk/filter.c:990
+#: ../gtk/filter.c:994
 msgid "_Show:"
 msgstr ""
 
-#: ../gtk/main.c:307
+#: ../gtk/main.c:303
 #, c-format
 msgid "Error registering Transmission as x-scheme-handler/magnet handler: %s"
 msgstr ""
 "Eroare la înregistrarea Transmission ca program gestionar pentru fișiere "
 "dedicate sau legături magnetice (x-scheme-handler/magnet handler): %s"
 
-#: ../gtk/main.c:472
+#: ../gtk/main.c:468
 #, c-format
 msgid ""
 "Got signal %d; trying to shut down cleanly. Do it again if it gets stuck."
@@ -907,32 +907,32 @@ msgstr ""
 "S-a primit semnalul %d; se încearcă oprirea curată a programului. Reluați "
 "dacă procedura nu este dusă la bun sfârșit."
 
-#: ../gtk/main.c:604
+#: ../gtk/main.c:596
 msgid "Where to look for configuration files"
 msgstr "Locația fișierelor de configurare"
 
-#: ../gtk/main.c:605
+#: ../gtk/main.c:597
 msgid "Start with all torrents paused"
 msgstr "Porneşte cu toate torentele suspendate"
 
-#: ../gtk/main.c:606
+#: ../gtk/main.c:598
 msgid "Start minimized in notification area"
 msgstr "Afișează dialogul cu _opțiuni"
 
-#: ../gtk/main.c:607
+#: ../gtk/main.c:599
 msgid "Show version number and exit"
 msgstr "Arată numărul versiunii și ieși"
 
-#: ../gtk/main.c:625 ../gtk/transmission-gtk.desktop.in.h:1
+#: ../gtk/main.c:617 ../gtk/transmission-gtk.desktop.in.h:1
 msgid "Transmission"
 msgstr "Transmission"
 
 #. parse the command line
-#: ../gtk/main.c:629
+#: ../gtk/main.c:621
 msgid "[torrent files or urls]"
 msgstr "[fișiere sau URI-uri torent]"
 
-#: ../gtk/main.c:633
+#: ../gtk/main.c:625
 #, c-format
 msgid ""
 "%s\n"
@@ -942,7 +942,7 @@ msgstr ""
 "Executați „%s --help” pentru a vizualiza lista completă a opțiunilor din "
 "linia de comandă.\n"
 
-#: ../gtk/main.c:730
+#: ../gtk/main.c:722
 msgid ""
 "Transmission is a file-sharing program. When you run a torrent, its data "
 "will be made available to others by means of upload. You and you alone are "
@@ -955,67 +955,76 @@ msgstr ""
 "întreaga responsabilitate în exercitarea judecăților proprii și în "
 "respectarea legilor în vigoare pe plan local."
 
-#: ../gtk/main.c:732
+#: ../gtk/main.c:724
 msgid "I _Accept"
 msgstr "_Accept"
 
-#: ../gtk/main.c:941
+#: ../gtk/main.c:933
 msgid "<b>Closing Connections</b>"
 msgstr "<b>Se închid conexiunile</b>"
 
-#: ../gtk/main.c:945
+#: ../gtk/main.c:937
 msgid "Sending upload/download totals to tracker…"
 msgstr "Se trimit totalurile pentru încărcare/descărcare către tracker…"
 
-#: ../gtk/main.c:950
+#: ../gtk/main.c:942
 msgid "_Quit Now"
 msgstr "Închide _acum"
 
-#: ../gtk/main.c:1008
+#: ../gtk/main.c:1000
 msgid "Couldn't add corrupt torrent"
 msgid_plural "Couldn't add corrupt torrents"
 msgstr[0] "Nu s-a putut adăuga torentul corupt"
 msgstr[1] "Nu s-au putut adăuga torenți corupți"
 msgstr[2] "Nu s-au putut adăuga torenți corupți"
 
-#: ../gtk/main.c:1015
+#: ../gtk/main.c:1007
 msgid "Couldn't add duplicate torrent"
 msgid_plural "Couldn't add duplicate torrents"
 msgstr[0] "Nu s-a putut adăuga torentul de două ori"
 msgstr[1] "Nu s-au putut adăuga torenții de două ori"
 msgstr[2] "Nu s-au putut adăuga torenții de două ori"
 
-#: ../gtk/main.c:1316
+#: ../gtk/main.c:1308
 msgid "A fast and easy BitTorrent client"
 msgstr "Un client BitTorrent simplu și rapid"
 
-#: ../gtk/main.c:1317
+#: ../gtk/main.c:1309
 msgid "Copyright (c) The Transmission Project"
 msgstr "Copyright (c) The Transmission Project"
 
 #. Translators: translate "translator-credits" as your name
 #. to have it appear in the credits in the "About"
 #. dialog
-#: ../gtk/main.c:1323
+#: ../gtk/main.c:1315
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Adi https://launchpad.net/~aditzah-z\n"
 "  Adi Roiban https://launchpad.net/~adiroiban\n"
+"  Adrian Harabulă https://launchpad.net/~domnublu\n"
+"  Adrian Nita https://launchpad.net/~nitzadrian-deactivatedaccount\n"
 "  Alex Eftimie https://launchpad.net/~alexeftimie\n"
 "  Alexandru Guduleasa https://launchpad.net/~gulyan89\n"
 "  Anca Emanuel https://launchpad.net/~anca-emanuel\n"
+"  Bogdan Bădic-Spătariu https://launchpad.net/~thelad33\n"
 "  Cris G https://launchpad.net/~krig-tiscali\n"
 "  Daniel Șerbănescu https://launchpad.net/~serbanescu.daniel\n"
 "  Denis Toader https://launchpad.net/~dentys03\n"
 "  George Dumitrescu https://launchpad.net/~geod\n"
 "  Iain Apreotesei https://launchpad.net/~iain-apreotesei\n"
+"  Ionuț Jula https://launchpad.net/~ionutjula\n"
 "  Jorel https://launchpad.net/~d-dymon\n"
 "  Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu\n"
+"  MBogdan https://launchpad.net/~m-for-mike\n"
+"  Manuel R. Ciosici https://launchpad.net/~manuelciosici\n"
 "  Marian Vasile https://launchpad.net/~marianvasile-upcmail\n"
+"  Mircea Suciu https://launchpad.net/~mirceasuciu\n"
 "  Nichita Uțiu https://launchpad.net/~nikita.utiu\n"
 "  Paul Moldovan https://launchpad.net/~djpaul4216\n"
 "  Vitali https://launchpad.net/~vitalinitro\n"
+"  bbw https://launchpad.net/~bbw007\n"
+"  danutzdobrescu https://launchpad.net/~danutzdobrescu\n"
 "  ocsi1970 https://launchpad.net/~fazakasmiklos"
 
 #: ../gtk/makemeta-ui.c:75
@@ -1143,19 +1152,19 @@ msgstr "Istoric mesaje"
 msgid "Level"
 msgstr "Nivel"
 
-#: ../gtk/notify.c:213
+#: ../gtk/notify.c:215
 msgid "Open File"
 msgstr "Deschide fişier"
 
-#: ../gtk/notify.c:218
+#: ../gtk/notify.c:220
 msgid "Open Folder"
 msgstr "Deschide dosar"
 
-#: ../gtk/notify.c:226
+#: ../gtk/notify.c:228
 msgid "Torrent Complete"
 msgstr "Torent complet"
 
-#: ../gtk/notify.c:248
+#: ../gtk/notify.c:250
 msgid "Torrent Added"
 msgstr "Torent adăugat"
 
@@ -1204,15 +1213,15 @@ msgstr "Deschide torent"
 msgid "Show _options dialog"
 msgstr "Afișează dialogul cu _opțiuni"
 
-#: ../gtk/open-dialog.c:487
+#: ../gtk/open-dialog.c:492
 msgid "Open URL"
 msgstr "Deschide URL"
 
-#: ../gtk/open-dialog.c:500
+#: ../gtk/open-dialog.c:505
 msgid "Open torrent from URL"
 msgstr "Deschide un torent utilizând URL"
 
-#: ../gtk/open-dialog.c:505
+#: ../gtk/open-dialog.c:510
 msgid "_URL"
 msgstr "_URL"
 
@@ -1489,7 +1498,7 @@ msgstr "Maxim de _descărcări active:"
 msgid "Downloads sharing data in the last N minutes are _active:"
 msgstr "Descărcările de date partajate în ultimile N minute sunt _active:"
 
-#: ../gtk/tr-prefs.c:286 ../libtransmission/torrent.c:1903
+#: ../gtk/tr-prefs.c:286 ../libtransmission/torrent.c:1902
 msgid "Incomplete"
 msgstr "Incomplet"
 
@@ -2004,7 +2013,7 @@ msgstr "GO/s"
 msgid "TB/s"
 msgstr "TO/s"
 
-#: ../gtk/util.c:87 ../libtransmission/utils.c:1485
+#: ../gtk/util.c:87 ../libtransmission/utils.c:1505
 msgid "None"
 msgstr "Nimic"
 
@@ -2109,7 +2118,7 @@ msgid "Couldn't save file \"%1$s\": %2$s"
 msgstr "Fișierul „%1$s”: %2$s nu a putut fi salvat"
 
 #: ../libtransmission/blocklist.c:86 ../libtransmission/blocklist.c:325
-#: ../libtransmission/utils.c:436
+#: ../libtransmission/utils.c:438
 #, c-format
 msgid "Couldn't read \"%1$s\": %2$s"
 msgstr "Nu s-a putut citi „%1$s”: %2$s"
@@ -2131,7 +2140,7 @@ msgid "Blocklist \"%s\" updated with %zu entries"
 msgstr "Lista de blocare „%s” a fost actualizată cu %zu (de) intrări"
 
 #: ../libtransmission/fdlimit.c:360 ../libtransmission/metainfo.c:112
-#: ../libtransmission/utils.c:568 ../libtransmission/utils.c:579
+#: ../libtransmission/utils.c:570 ../libtransmission/utils.c:581
 #, c-format
 msgid "Couldn't create \"%1$s\": %2$s"
 msgstr "Nu s-a putut crea „%1$s”: %2$s"
@@ -2156,7 +2165,7 @@ msgstr "Nu s-a putut crea socketul: %s"
 msgid "Torrent Creator is skipping file \"%s\": %s"
 msgstr "Creatorul de torente ignoră fişierul „%s”: %s"
 
-#: ../libtransmission/metainfo.c:587
+#: ../libtransmission/metainfo.c:592
 #, c-format
 msgid "Invalid metadata entry \"%s\""
 msgstr "Intrare metadate nevalidă „%s”"
@@ -2185,32 +2194,32 @@ msgstr "nu se mai înaintează portul %d"
 msgid "Port %d forwarded successfully"
 msgstr "Portul %d a fost înaintat cu succes"
 
-#: ../libtransmission/net.c:266
+#: ../libtransmission/net.c:268
 #, c-format
 msgid "Couldn't set source address %s on %d: %s"
 msgstr "Nu s-a putut defini adresa sursă %s pe %d: %s"
 
-#: ../libtransmission/net.c:282
+#: ../libtransmission/net.c:284
 #, c-format
 msgid "Couldn't connect socket %d to %s, port %d (errno %d - %s)"
 msgstr ""
 "Nu s-a putut conecta socketul %d la %s, portul %d (eroare nr %d - %s)"
 
-#: ../libtransmission/net.c:354
+#: ../libtransmission/net.c:356
 msgid "Is another copy of Transmission already running?"
 msgstr ""
 
-#: ../libtransmission/net.c:359
+#: ../libtransmission/net.c:361
 #, c-format
 msgid "Couldn't bind port %d on %s: %s"
 msgstr "Nu s-a putut lega la portul %d pe %s: %s"
 
-#: ../libtransmission/net.c:361
+#: ../libtransmission/net.c:363
 #, c-format
 msgid "Couldn't bind port %d on %s: %s (%s)"
 msgstr ""
 
-#: ../libtransmission/peer-msgs.c:1893
+#: ../libtransmission/peer-msgs.c:1896
 #, c-format
 msgid "Please Verify Local Data! Piece #%zu is corrupt."
 msgstr "Verificați datele locale! Elementul #%zu este alterat."
@@ -2235,7 +2244,7 @@ msgstr "În curs de oprire"
 msgid "Not forwarded"
 msgstr "Nu s-a înaintat"
 
-#: ../libtransmission/port-forwarding.c:91 ../libtransmission/torrent.c:2040
+#: ../libtransmission/port-forwarding.c:91 ../libtransmission/torrent.c:2039
 #, c-format
 msgid "State changed from \"%1$s\" to \"%2$s\""
 msgstr "Starea s-a schimbat de la „%1$s” la „%2$s”"
@@ -2246,7 +2255,7 @@ msgstr "Oprit"
 
 #. first %s is the application name
 #. second %s is the version number
-#: ../libtransmission/session.c:718
+#: ../libtransmission/session.c:720
 #, c-format
 msgid "%s %s started"
 msgstr "%s %s pornit"
@@ -2256,17 +2265,17 @@ msgstr "%s %s pornit"
 msgid "Loaded %d torrents"
 msgstr "S-au incărcat %d torente"
 
-#: ../libtransmission/torrent.c:524
+#: ../libtransmission/torrent.c:523
 #, c-format
 msgid "Tracker warning: \"%s\""
 msgstr "Avertisment tracker: „%s”"
 
-#: ../libtransmission/torrent.c:531
+#: ../libtransmission/torrent.c:530
 #, c-format
 msgid "Tracker error: \"%s\""
 msgstr "Eroare tracker: „%s”"
 
-#: ../libtransmission/torrent.c:778
+#: ../libtransmission/torrent.c:777
 msgid ""
 "No data found! Ensure your drives are connected or use \"Set Location\". To "
 "re-download, remove the torrent and re-add it."
@@ -2275,19 +2284,19 @@ msgstr ""
 "utilizați „Stabiliți locul”. Pentru a relua descărcarea, ștergeți torentul "
 "și adăugați-l din nou."
 
-#: ../libtransmission/torrent.c:1661
+#: ../libtransmission/torrent.c:1660
 msgid "Restarted manually -- disabling its seed ratio"
 msgstr "Repornire manuală -- se deazctivează rația"
 
-#: ../libtransmission/torrent.c:1813
+#: ../libtransmission/torrent.c:1812
 msgid "Removing torrent"
 msgstr ""
 
-#: ../libtransmission/torrent.c:1897
+#: ../libtransmission/torrent.c:1896
 msgid "Done"
 msgstr "Terminat"
 
-#: ../libtransmission/torrent.c:1900
+#: ../libtransmission/torrent.c:1899
 msgid "Complete"
 msgstr "Complet"
 
@@ -2326,16 +2335,16 @@ msgstr ""
 msgid "Port forwarding successful!"
 msgstr "Înaintarea portului s-a efectuat cu succes!"
 
-#: ../libtransmission/utils.c:450
+#: ../libtransmission/utils.c:452
 msgid "Not a regular file"
 msgstr "Nu este un fişier obişnuit"
 
-#: ../libtransmission/utils.c:468
+#: ../libtransmission/utils.c:470
 msgid "Memory allocation failed"
 msgstr "Alocarea memoriei a eşuat"
 
 #. Node exists but isn't a folder
-#: ../libtransmission/utils.c:578
+#: ../libtransmission/utils.c:580
 #, c-format
 msgid "File \"%s\" is in the way"
 msgstr "Fişierul „%s” stă în cale"
